@@ -44,9 +44,6 @@ public class Jogo {
                 tabuleiro.ValorJogador2(linha, coluna, valor);
             }
 
-            Interface.mostrarTabuleiro(tabuleiro.getTabuleiroJogador1(), tabuleiro.getFixosJogador1(), tabuleiro.getTabuleiroJogador2(), tabuleiro.getFixosJogador2());
-
-
             // Trocar de jogador
             jogadorAtual = (jogadorAtual == jogador1) ? jogador2 : jogador1;
 
